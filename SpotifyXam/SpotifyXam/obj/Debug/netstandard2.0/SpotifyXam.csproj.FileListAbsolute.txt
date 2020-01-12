@@ -1,0 +1,13 @@
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\bin\Debug\netstandard2.0\SpotifyXam.deps.json
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\bin\Debug\netstandard2.0\SpotifyXam.dll
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\bin\Debug\netstandard2.0\ref\SpotifyXam.dll
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\bin\Debug\netstandard2.0\SpotifyXam.pdb
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\SpotifyXam.AssemblyInfoInputs.cache
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\SpotifyXam.AssemblyInfo.cs
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\SpotifyXam.dll
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\ref\SpotifyXam.dll
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\SpotifyXam.pdb
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\SpotifyXam.csprojAssemblyReference.cache
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Users\Yigit\source\repos\SpotifyXam\SpotifyXam\SpotifyXam\obj\Debug\netstandard2.0\XamlC.stamp

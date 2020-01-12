@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Name="myPage"
+             x:Class="SpotifyXam.Pages.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <CarouselView ItemsSource="{Binding Items}">
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout 
+                        Orientation="Horizontal" 
+                        SnapPointsAlignment="Center" 
+                        SnapPointsType="MandatorySingle" />
+                </CarouselView.ItemsLayout>
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding name}"
+                                   HorizontalOptions="Center"
+                                   FontSize="Large"
+                                   FontAttributes="Bold"
+                                   Grid.Row="0"/>
+                            <Label Text="{Binding tracks.total}"
+                                   HorizontalOptions="Center"
+                                   Grid.Row="1"/>
+                            <Image Source="{Binding images[0].url}"
+                                   Grid.Row="2">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=BindingContext.SelectCommand,
+                                                                    Source={x:Reference myPage}}"
+                                                          CommandParameter="{Binding .}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

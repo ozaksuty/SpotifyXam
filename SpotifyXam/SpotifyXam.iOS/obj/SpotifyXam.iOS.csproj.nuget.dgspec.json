@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam.iOS\\SpotifyXam.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam.iOS\\SpotifyXam.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam.iOS\\SpotifyXam.iOS.csproj",
+        "projectName": "SpotifyXam.iOS",
+        "projectPath": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam.iOS\\SpotifyXam.iOS.csproj",
+        "packagesPath": "C:\\Users\\Yigit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yigit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\SpotifyXam.csproj": {
+                "projectPath": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\SpotifyXam.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.35, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\SpotifyXam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\SpotifyXam.csproj",
+        "projectName": "SpotifyXam",
+        "projectPath": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\SpotifyXam.csproj",
+        "packagesPath": "C:\\Users\\Yigit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yigit\\source\\repos\\SpotifyXam\\SpotifyXam\\SpotifyXam\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yigit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.0.35, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991477, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
